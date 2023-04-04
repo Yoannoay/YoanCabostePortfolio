@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Yoan Caboste Online Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						
+						<h1>Yoan Caboste <b></b></h1>
+						<p>A passionate and driven data professional with a focus on engineering, analysis and leveraging cloud platforms.
+							<b><ul class="icons alt">
+								<li><a href="https://github.com/Yoannoay" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>	
+								<li><a href="https://www.linkedin.com/in/yoancaboste/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							</ul></b>
+							
+						</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<!-- <nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							<li><a href="about.html" target="_blank">About Me</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						
+					</nav> -->
+
+				<!-- Main -->
+					<div id="main">
+						
+						
+						<article class="post featured">
+							<header class="major">
+								
+								<h2>About me</h2>
+								<span class="image left"><img src="images/face.jpg" alt="" /></span><p>Hello, I'm Yoan Caboste, and I'm a certified Azure Cloud professional with a passion for big data analysis.
+									My expertise in Python and SQL allows me to effectively manipulate and analyze data, all the way down the pipeline.
+									I enjoy learning about history and its impact on our world today, which has given me a unique analytical perspective.
+									I'm always seeking new challenges and opportunities to grow my skills and knowledge.
+									</p>
+									<ul class="actions">
+										<li><a href="#projects" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+									</ul>
+							</header>
+							<!-- <a href="news_sentiment.html" class="image main"><img src="images/world_news.jpg" alt="" /></a> -->
+							
+						</article>
+
+						<!-- Project section -->
+						<header id = "projects" class = "major"><h2><strong>My Projects</strong></h2></header>
+						
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									
+									<h2>News Sentiment Analysis</a></h2>
+									<p>This sentiment analysis web app showcases the different perspectives presented by four international news sources, 
+									with three visualizations tracking positive and negative articles, daily changes, and polarity in topic coverage.
+									I utilized various data processing techniques such as data extraction, cleaning, storing, analysis, and visualization to gain the following
+									insights </p>
+								</header>
+								<li><a href="https://github.com/Yoannoay/news_sentiment_analysis" target="_blank" class="button large">Explore Source Code</a></li>
+								<a class="image fit"><img src="images/news_histo.jpg" alt="" /></a>
+								<blockquote>This histogram illustrates the distribution of sentiment across articles from Sky News (British), Le Monde News (French), DW News (German), and CBS News (the US).
+									Using pandas and Vader sentiment analysis, the articles were cleaned up and their sentiment scores calculated. </blockquote>
+
+								<a class="image fit"><img src="images/news_time.jpg" alt="" /></a>
+								<blockquote>This time series line chart depicts the percentage of positive articles across multiple news sources over time.
+									Future iterations of the project will focus on optimising the database design, leveraging cloud and designing 
+									an ingestion process for increased scalability. I also hope to cover
+									more modern	hubs of information i.e. social media sites.
+								</blockquote>
+
+
+								<a class="image fit"><img src="images/news_heat.jpg" alt="" /></a>
+								<blockquote>This heatmap showcases the polarity of each news source's coverage of 10 pre-defined topics,
+									which were narrowed down from 121 using spacy en_core_web_lg and similarity. The standardisation of topics was applied whilst ingesting the data into postgresql to cut down 
+									on the time the analysis took for the various visualisations.
+									The categories were adjusted to ensure acceptable accuracy in topic assignment. Some topics were not covered by every news source in the data acquired,
+									explaining the gaps in the heatmap.
+									While the current topics provide an interesting overview, future iterations will focus on defining topics with more overlap to further enrich the analysis.
+								</blockquote>
+							</article>
+						
+
+
+						<!-- Featured Post -->
+						<article class="post featured">
+							<header class="major">
+								
+								<h2>Covid Dashboard</a></h2>
+								<p>This Tableau dashboard visualizes World Health Organization data on Covid-19 cases, deaths,
+									 and population infection across countries and continents, using data prepared in SQL Server Manager and Excel.
+							</header>
+							<!-- <a href="news_sentiment.html" class="image main"><img src="images/world_news.jpg" alt="" /></a> -->
+							<ul class="actions special">
+								<li><a href="https://public.tableau.com/app/profile/yoan.caboste/viz/CovidWorldData_16805633674400/Dashboard1#1" target="_blank" class="button large">View Dashboard</a></li>
+								<li><a href="https://github.com/Yoannoay/news_sentiment_analysis" target="_blank" class="button large">Explore Source Code</a></li>
+								
+							</ul>
+							<a href="https://public.tableau.com/app/profile/yoan.caboste/viz/CovidWorldData_16805633674400/Dashboard1#1" target="_blank" class="image fit"><img src="images/COVID tableau.png" alt="" /></a>
+						</article>
+
+						<!-- Featured Post -->
+						<article class="post featured">
+							<header class="major">
+								
+								<h2>Exploring Movie Success</h2>
+								<p>This Jupyter notebook explores the relationships between budget and gross in movie datasets, amongst others, 
+									using techniques such as Pearson's correlation matrix to identify significant effects.
+									It offers valuable insights into the factors that contribute to movie success.
+							</header>
+							<!-- <a href="news_sentiment.html" class="image main"><img src="images/world_news.jpg" alt="" /></a> -->
+							<ul class="actions special">
+								<li><a href="https://github.com/Yoannoay/First-Steps-Exploring-Data/blob/main/Movie%20Correlation%20Project.ipynb" target="_blank" class="button large">Explore Juypter Notebook</a></li>
+								
+							</ul>
+							<a  href="https://github.com/Yoannoay/First-Steps-Exploring-Data/blob/main/Movie%20Correlation%20Project.ipynb" target="_blank" class="image fit"><img src="images/corr_matrix_movies.png" alt=""  /></a>
+						</article>
+
+						<!-- Posts -->
+							<!-- <section class="posts">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2><a href="#">Primis eget<br />
+										imperdiet lorem</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 18, 2017</span>
+										<h2><a href="#">Ante mattis<br />
+										interdum dolor</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 11, 2017</span>
+										<h2><a href="#">Odio magna<br />
+										sed consectetur</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer -->
+							<!-- <footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<!-- <a href="#" class="page active">1</a> -->
+									<!-- <a href="#" class="page">2</a> -->
+									<!-- <a href="#" class="page">3</a> -->
+									<!-- <span class="extra">&hellip;</span> -->
+									<!-- <a href="#" class="page">8</a> -->
+									<!-- <a href="#" class="page">9</a> -->
+									<!-- <a href="#" class="page">10</a> -->
+									<!-- <a href="#" class="next">Next</a> -->
+								<!-- </div> -->
+							<!-- </footer> -->
+
+					<!-- </div> -->
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section> -->
+						<section class="split contact">
+							<!-- <section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section> -->
+							<section>
+								<h3>Email</h3>
+								<p>yoancaboste.yc@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/yoancaboste/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/Yoannoay" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
